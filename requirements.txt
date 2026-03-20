@@ -10,4 +10,10 @@ npm i puppeteer
 
 npx puppeteer browsers install chrome
 
+
+apt install -y \
+  libatk1.0-0t64 libatk-bridge2.0-0t64 libcups2t64 libdrm2 libxkbcommon0 \
+  libxcomposite1 libxdamage1 libxrandr2 libgbm1 libpango-1.0-0 \
+  libcairo2 libasound2t64 libnspr4 libnss3 libxshmfence1 fonts-liberation
+
 npm i -D tsx
