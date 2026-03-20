@@ -8,4 +8,6 @@ npm i --save-dev @types/validator
 
 npm i puppeteer
 
+npx puppeteer browsers install chrome
+
 npm i -D tsx
