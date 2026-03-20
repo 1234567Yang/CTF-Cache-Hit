@@ -99,7 +99,7 @@ app.get("/login", (req: Request, res: Response) => {
   }
 
   res.set('Set-Cookie', 'admin=114514');
-  res.send('<meta http-equiv="refresh" content="0;url=/panel">');
+  res.send('<a href="/panel">Redirect</a>');
 });
 
 app.get("/static/:file", (req: Request, res: Response) => {
