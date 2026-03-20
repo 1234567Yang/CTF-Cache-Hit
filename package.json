@@ -1,0 +1,45 @@
+{
+  "name": "ctf-cache-hit",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1234567Yang/CTF-Cache-Hit.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/1234567Yang/CTF-Cache-Hit/issues"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "ts-node": {
+    "esm": true
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "homepage": "https://github.com/1234567Yang/CTF-Cache-Hit#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "file-type": "^21.3.3",
+    "helmet": "^8.1.0",
+    "multer": "^2.1.1",
+    "mysql2": "^3.20.0",
+    "puppeteer": "^24.40.0",
+    "validator": "^13.15.26"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "@types/validator": "^13.15.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

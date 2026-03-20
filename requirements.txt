@@ -1,0 +1,11 @@
+
+npm install --save-dev ts-node typescript
+
+
+npm install express mysql2 dotenv helmet validator express-validator file-type multer
+
+npm i --save-dev @types/validator
+
+npm i puppeteer
+
+npm i -D tsx
