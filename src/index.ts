@@ -41,7 +41,9 @@ const port = 3215;
 import { initializeSecurity, evQuery, evValidationResult, evMatchedData, notArrayOrObject, badRequest } from './init.js';
 import { screenshot } from './screenshot.js';
 import { cacheMiddleware } from './cache.js';
+import { logMiddleware } from './log.js';
 initializeSecurity(app);
+app.use(logMiddleware);
 app.use(cacheMiddleware);
 
 
