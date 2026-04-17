@@ -9,7 +9,7 @@ interface CacheEntry {
 }
 
 const cache = new Map<string, CacheEntry>();
-const TTL = 5 * 60 * 1000; // 5 minutes
+const TTL = 30 * 1000; // 30 seconds
 
 export function cacheMiddleware(req: Request, res: Response, next: NextFunction) {
   const key = req.url;
